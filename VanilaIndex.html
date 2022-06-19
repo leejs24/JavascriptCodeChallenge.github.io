@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finsh Challenge</title>
+</head>
+<body id="bodi" onload="backgr()">
+
+    <h2 class="calendar"></h2>
+    <h2 class="timer"></h2>
+   <h2 class="login"></h2>
+    <form id="register-form"> 
+        <input id="name" type="text" placeholder="이름을 입력하세요." value=""/>
+        <input id="pw" type="password" placeholder="비밀번호를 입력하세요." value=""/>
+        <input id="rgstr_btn" type="submit" value="회원가입" onClick="store()"/> 
+    </form>
+
+    <form id="login-form"> 
+        <input id="userName" type="text" placeholder="이름을 입력하세요" value=""/>
+        <input id="userPw" type="password" placeholder="비밀번호를 입력하세요." value=""/>
+        <input id="login_btn" type="submit" value="로그인" onClick="check()"/> 
+   </form>
+
+   <form class="js-toDoForm">
+    <input type="text" placeholder="Write your ToDO-list" />
+  </form>
+  <ul class="js-toDoList"></ul>
+
+  <div id ="weather">
+    <span></span>
+    <span></span>
+  </div>
+
+</body>
+<script src = randomBackground.js></script>
+<script src="Livetimer.js"></script>
+<script src =Todolist.js></script>
+<script src = weather.js></script>
+<script src="login.js"></script>
+
+
+
+<link rel="stylesheet" href="VanillaStyle.css">
+</html>

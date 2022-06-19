@@ -1,0 +1,43 @@
+body {
+    background-color: white;
+
+}
+
+
+.js-toDoForm {
+    margin-right: 100px;
+}
+
+.js-toDoList {
+    margin-right: 100px;
+
+}
+
+#register-form{
+    margin-left: 520px;
+    margin-top: 100px;
+}
+#login-form {
+
+    margin-left: 520px;
+}
+
+.calendar{
+    display: inline;
+    font-size: 60px;
+}
+
+.timer{
+    display: inline;
+}
+
+#weather {
+    
+    
+        display: inline-block;
+        position: relative;
+        width: 200px;
+        height: 200px;
+     
+    font-size: 30px;
+}
